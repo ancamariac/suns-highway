@@ -56,7 +56,7 @@ public class CarController : MonoBehaviour
         {
             Vector3 position;
             position = transform.position;
-            position.x += 0.01f;
+            position.x += 0.05f;
             transform.position = position;
         }
 
@@ -64,7 +64,7 @@ public class CarController : MonoBehaviour
         {
             Vector3 position;
             position = transform.position;
-            position.x -= 0.01f;
+            position.x -= 0.05f;
             transform.position = position;
         }
 
