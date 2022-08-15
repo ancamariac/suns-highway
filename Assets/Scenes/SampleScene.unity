@@ -1106,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107, y: -47.699997}
+  m_AnchoredPosition: {x: 107, y: -47.69995}
   m_SizeDelta: {x: 177.74933, y: 69.07651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443051788
@@ -1438,10 +1438,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefabs:
+  - {fileID: 186458, guid: a235142a557ae974495a470c764c7f4c, type: 3}
+  - {fileID: 186458, guid: 442292ac18b889d45a2cfe4e1adfb53f, type: 3}
+  - {fileID: 186458, guid: 9c6b9370cc04f374c950b7e8958ddb5e, type: 3}
+  - {fileID: 116448, guid: c05dbea188ced624d89dc8b6d5e2d910, type: 3}
+  - {fileID: 116448, guid: 55bfe10fb378e1c40b1447a02f6b5b8c, type: 3}
+  - {fileID: 160038, guid: 28a9d3aca5b38144690ae77bb3a230af, type: 3}
+  - {fileID: 160038, guid: 17eba02f65814e445a961f011942fdd1, type: 3}
+  - {fileID: 160038, guid: cc6d6172a26ef6442a8b36d97f86862f, type: 3}
+  - {fileID: 129146, guid: 10daff7d810144e4ab7543af0eacd438, type: 3}
+  - {fileID: 129146, guid: 4597394e35c4cd5499ff04534c325a9e, type: 3}
+  - {fileID: 129146, guid: 19cd7949daae1b042952b5721cc5ce49, type: 3}
+  - {fileID: 140570, guid: 555b0521d1cb36344abf1b9a0b7f0aa1, type: 3}
+  - {fileID: 140570, guid: 5a00d2d9d1081b8498780adf5726a3f6, type: 3}
+  - {fileID: 140570, guid: a1274c1ed0eaa0d4aa3bd92fe1e62510, type: 3}
+  - {fileID: 162266, guid: 878b7c922d8906442b663e8c84724a70, type: 3}
+  - {fileID: 162266, guid: 56a691ad73b63684ca8e10146260c798, type: 3}
+  - {fileID: 162266, guid: f44be12966e41894aa2ec29293b8ffc7, type: 3}
+  - {fileID: 193646, guid: 00364aaf48bbac6478f0b403b119bf34, type: 3}
+  - {fileID: 193646, guid: 8d3a414b0e9aaed49b5672d9073c5051, type: 3}
+  - {fileID: 193646, guid: 44410df346905cf42a0a76663d3c5a93, type: 3}
   - {fileID: 2871480061377416244, guid: 6dc12091b65525048999c7d88b9cafe2, type: 3}
-  - {fileID: 5548040723365395644, guid: 3aa1af5cc21810646be94b9fa563d389, type: 3}
-  - {fileID: 7828650502056081382, guid: 7ecce8f0ab4a13047a64eb1e6ce88d95, type: 3}
   - {fileID: 580320220753887962, guid: 0ab6bad2f0dde3344bc85da1ff66ddcc, type: 3}
+  - {fileID: 5548040723365395644, guid: 3aa1af5cc21810646be94b9fa563d389, type: 3}
+  - {fileID: 154144, guid: b5867bce75cc43c48918f5897d8a4807, type: 3}
+  - {fileID: 157538, guid: e9bcf6078762fce43987a42458d58fc8, type: 3}
+  - {fileID: 7828650502056081382, guid: 7ecce8f0ab4a13047a64eb1e6ce88d95, type: 3}
   lane1: {fileID: 1325301234}
   lane2: {fileID: 1826963714}
   lane3: {fileID: 1921698949}

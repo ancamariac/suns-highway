@@ -39,10 +39,10 @@ public class ObstacleGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for ( int i = 0; i < 50; i++)
+        for ( int i = 0; i < 70; i++)
         {
             int lane = Random.Range(1, 5);
-            float dist = i * 50 + 15;
+            float dist = i * 70 + 15;
 
             SpawnObstacle(lane, dist);
         }
