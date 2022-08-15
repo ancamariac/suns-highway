@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6938619885205007833}
   - component: {fileID: 6938619885206307063}
   - component: {fileID: 6938619885207412531}
-  - component: {fileID: 8084033244381127131}
+  - component: {fileID: 6091276949563145809}
   m_Layer: 0
   m_Name: Car_5_Blue
   m_TagString: Untagged
@@ -166,7 +166,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8084033244381127131
+--- !u!114 &6091276949563145809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 718339786109792321}
   - component: {fileID: 718339786111156373}
   - component: {fileID: 718339786111760995}
-  - component: {fileID: 2105216451358721040}
+  - component: {fileID: -3279349813532973467}
   m_Layer: 0
   m_Name: Policecar
   m_TagString: Untagged
@@ -326,7 +326,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2105216451358721040
+--- !u!114 &-3279349813532973467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

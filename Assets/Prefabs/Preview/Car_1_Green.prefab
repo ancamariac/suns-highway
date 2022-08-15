@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 3023247504563074050}
   - component: {fileID: 3023247504564328948}
   - component: {fileID: 3023247504565434036}
-  - component: {fileID: 1557530149390834020}
+  - component: {fileID: -771311636910498421}
   m_Layer: 0
   m_Name: Car_1_Green
   m_TagString: Untagged
@@ -406,7 +406,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1557530149390834020
+--- !u!114 &-771311636910498421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
