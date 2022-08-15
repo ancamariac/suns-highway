@@ -29,7 +29,7 @@ public class CarController : MonoBehaviour
             position = transform.position;
             position.z += speed;
             position.x += tilt;
-            position.x = Mathf.Clamp(position.x, -6.18f, 6.18f);
+            position.x = Mathf.Clamp(position.x, -5, 5);
             transform.position = position;
         }
 
