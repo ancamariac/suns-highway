@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PreviewManager : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class PreviewManager : MonoBehaviour
         Destroy(car);
 
         currentCar--;
+
         if ( currentCar < 0 )
         {
             currentCar = prefabs.Length - 1;
@@ -36,14 +38,10 @@ public class PreviewManager : MonoBehaviour
         car = Instantiate(prefabs[currentCar], pos, quat);
     }
     // Start is called before the first frame update
-    void Start()
+    public void StartGame()
     {
-        
+        PlayerPrefs.SetInt("currentCar", currentCar);
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
