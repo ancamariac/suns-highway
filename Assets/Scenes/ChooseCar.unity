@@ -1402,12 +1402,14 @@ PrefabInstance:
     - target: {fileID: 1808343835180687262, guid: e0a4e7266eb215a438e00949c75cbea9,
         type: 3}
       propertyPath: m_Name
-      value: Car_6_Silver
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 1808343835180687262, guid: e0a4e7266eb215a438e00949c75cbea9,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1808343835178232412, guid: e0a4e7266eb215a438e00949c75cbea9, type: 3}
+    - {fileID: 1808343835177569066, guid: e0a4e7266eb215a438e00949c75cbea9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e0a4e7266eb215a438e00949c75cbea9, type: 3}
