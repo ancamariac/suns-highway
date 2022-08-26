@@ -11,11 +11,12 @@ public class LoadCar : MonoBehaviour
     void Start()
     {
         int selectedCar = PlayerPrefs.GetInt("currentCar");
-        Debug.Log(selectedCar);
         GameObject prefab = cars[selectedCar];
 
         Vector3 pos = cars[selectedCar].transform.position;
         Quaternion quat = cars[selectedCar].transform.rotation;
+
+        cars[selectedCar].SetActive(true);
 
         GameObject clone = Instantiate(prefab, pos, quat);
     }
