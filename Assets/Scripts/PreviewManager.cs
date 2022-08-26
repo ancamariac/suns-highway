@@ -10,6 +10,13 @@ public class PreviewManager : MonoBehaviour
 
     int currentCar = 0;
 
+    private void Start()
+    {
+        Vector3 pos = car.transform.position;
+        Quaternion quat = car.transform.rotation;
+        car = Instantiate(prefabs[currentCar], pos, quat);
+    }
+
     public void Next()
     {
         Vector3 pos = car.transform.position;

@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   car: {fileID: 130899574}
   prefabs:
-  - {fileID: 116448, guid: 3722d75da4cd8cb4b9251fa015410d0b, type: 3}
+  - {fileID: 193646, guid: dcd8e3a3a69468c4d9a58abc9d4d5d0c, type: 3}
   - {fileID: 3023247504563492310, guid: 530cc5da5ea29db4fb4a8634c13d3f05, type: 3}
   - {fileID: 116448, guid: e672c4b024d89694fa35b755d1780472, type: 3}
   - {fileID: 160038, guid: 0ec9a12f962e26545a4e51d3ad36c304, type: 3}
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   - {fileID: 162266, guid: bd0877ac36098ce42b418bd3037cbadc, type: 3}
   - {fileID: 193646, guid: 309fcc2534e162642a21849fa2f50f8d, type: 3}
   - {fileID: 193646, guid: d9cb6d09a6a574f409810508815ecd1b, type: 3}
-  - {fileID: 193646, guid: dcd8e3a3a69468c4d9a58abc9d4d5d0c, type: 3}
+  - {fileID: 116448, guid: 3722d75da4cd8cb4b9251fa015410d0b, type: 3}
   - {fileID: 1808343835180687262, guid: e0a4e7266eb215a438e00949c75cbea9, type: 3}
   - {fileID: 2871480061377416244, guid: ec945a36275909449bfb6cbf098f7e01, type: 3}
   - {fileID: 718339786110022511, guid: 05d9b0b13f030c348966a7d94eff0598, type: 3}
@@ -1403,6 +1403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Car_6_Silver
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808343835180687262, guid: e0a4e7266eb215a438e00949c75cbea9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0a4e7266eb215a438e00949c75cbea9, type: 3}
