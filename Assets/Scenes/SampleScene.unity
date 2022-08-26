@@ -130,6 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 61095916}
+  - component: {fileID: 61095917}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -151,6 +152,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61095917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61095915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e69e21a4c273c334a87c6fc0e673640f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  cars:
+  - {fileID: 116448, guid: 3722d75da4cd8cb4b9251fa015410d0b, type: 3}
+  - {fileID: 3023247504563492310, guid: 530cc5da5ea29db4fb4a8634c13d3f05, type: 3}
 --- !u!1 &103795686
 GameObject:
   m_ObjectHideFlags: 0

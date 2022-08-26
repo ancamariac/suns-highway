@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class LoadCar : MonoBehaviour
 {
+    //public Transform spawnPoint;
+    public GameObject[] cars;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        int selectedCar = PlayerPrefs.GetInt("currentCar");
+        Debug.Log(selectedCar);
+        GameObject prefab = cars[selectedCar];
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vector3 pos = cars[selectedCar].transform.position;
+        Quaternion quat = cars[selectedCar].transform.rotation;
+
+        GameObject clone = Instantiate(prefab, pos, quat);
     }
 }

@@ -9,15 +9,8 @@ public class CarController : MonoBehaviour
     public ButtonControl acceleration;
 
     public float sensitivityFactor = 0.5f;
-
     public float speed = 1f;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     void FixedUpdate()
     {
 
