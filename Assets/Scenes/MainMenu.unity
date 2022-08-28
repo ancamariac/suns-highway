@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.9, y: -1.2}
-  m_SizeDelta: {x: 448.9, y: 120.6}
+  m_AnchoredPosition: {x: 8.9, y: -52.7}
+  m_SizeDelta: {x: 700, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459089091
 MonoBehaviour:
@@ -356,7 +356,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8.9, y: 141.9}
-  m_SizeDelta: {x: 448.9, y: 120.6}
+  m_SizeDelta: {x: 700, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881991290
 MonoBehaviour:
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 1235360989}
   - component: {fileID: 1235360988}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,8 +879,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1173,8 +1173,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
