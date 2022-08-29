@@ -16,7 +16,7 @@ public class SpeedUI : MonoBehaviour
 
     void Update()
     {
-        int sp = (int)(car.speed * 300f);
+        int sp = (int)(car.speed * 250f);
         text.text = "Speed: " + sp.ToString() + " km/h";
     }
 }

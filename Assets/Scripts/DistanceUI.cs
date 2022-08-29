@@ -15,7 +15,7 @@ public class DistanceUI : MonoBehaviour
 
     void Update()
     {
-        int dist = (int)car.transform.position.z;
-        text.text = "Distance: " + dist.ToString() + " m";
+        float dist = (float)car.transform.position.z / 1000;
+        text.text = "Distance: " + dist.ToString("F2") + " km";
     }
 }
