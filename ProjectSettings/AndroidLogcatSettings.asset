@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "52009c28b8a32509",
         "name": "com.DefaultCompany.SunsHighway",
-        "processId": 25807,
-        "exited": true
+        "processId": 11463,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -19,6 +19,12 @@
             "name": "com.DefaultCompany.SunsHighway",
             "processId": 25807,
             "exited": true
+        },
+        {
+            "deviceId": "52009c28b8a32509",
+            "name": "com.DefaultCompany.SunsHighway",
+            "processId": 11463,
+            "exited": false
         }
     ],
     "m_Tags": {
