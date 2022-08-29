@@ -7,6 +7,6 @@ public class ReplayButton : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("Scenes/SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Scenes/ChooseCar", LoadSceneMode.Single);
     }
 }
