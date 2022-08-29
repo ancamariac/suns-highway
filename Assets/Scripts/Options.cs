@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButton : MonoBehaviour
+public class Options : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Untitled", LoadSceneMode.Single);
+        Debug.Log("fdfsd");
     }
 }
