@@ -39,6 +39,7 @@ public class CarController : MonoBehaviour
         } else
         {
             speed -= 0.0005f;
+
             if (speed <= 0)
             {
                 speed = 0;
@@ -63,7 +64,8 @@ public class CarController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) || brakes.pressed)
         {
-            speed -= 0.01f;
+            speed -= 0.019f;
+
             if ( speed <= 0 )
             {
                 speed = 0;

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ObstacleGenerator : MonoBehaviour
 {
-    public GameObject [] obstaclePrefabs;
+    public GameObject [] obstacleForward;
+    public GameObject[] obstacleRearward;
+
     public Transform lane1, lane2, lane3, lane4;
 
     float GetXFromLane( int lane)
@@ -24,27 +26,46 @@ public class ObstacleGenerator : MonoBehaviour
         }
     }
 
-    GameObject GetRandomPrefab()
+    GameObject GetRandomPrefabFwd()
     {
-        return obstaclePrefabs[Random.Range(0,obstaclePrefabs.Length)];
+        return obstacleForward[Random.Range(0, obstacleForward.Length)];
     }
 
-    void SpawnObstacle( int lane, float z)
+    GameObject GetRandomPrefabRwd()
     {
-        GameObject obstaclePrefab = GetRandomPrefab();
+        return obstacleRearward[Random.Range(0, obstacleForward.Length)];
+    }
+
+    void SpawnObstacleForward( int lane, float z)
+    {
+        GameObject obstaclePrefabFwd = GetRandomPrefabFwd();
         float x = GetXFromLane(lane);
-        Instantiate(obstaclePrefab, new Vector3(x, obstaclePrefab.transform.position.y, z), obstaclePrefab.transform.rotation, transform);
+
+        Instantiate(obstaclePrefabFwd, new Vector3(x, obstaclePrefabFwd.transform.position.y, z), obstaclePrefabFwd.transform.rotation, transform);
     }
 
-    // Start is called before the first frame update
+    void SpawnObstaclesRearward(int lane, float z)
+    {
+        GameObject obstaclePrefabRwd = GetRandomPrefabRwd();
+        float x = GetXFromLane(lane);
+
+        Vector3 rot = obstaclePrefabRwd.transform.eulerAngles;
+        rot = new Vector3(rot.x, rot.y + 180, rot.z);
+        obstaclePrefabRwd.transform.rotation = Quaternion.Euler(rot);
+
+        Instantiate(obstaclePrefabRwd, new Vector3(x, obstaclePrefabRwd.transform.position.y, z), obstaclePrefabRwd.transform.rotation, transform);
+    }
+
     void Start()
     {
-        for ( int i = 0; i < 70; i++)
+        for (int i = 0; i < 100; i++)
         {
-            int lane = Random.Range(1, 5);
-            float dist = i * 70 + 15;
+            int lane12 = Random.Range(1, 2);
+            int lane34 = Random.Range(3, 5);
+            float dist = i * 100 + 15;
 
-            SpawnObstacle(lane, dist);
+            SpawnObstacleForward(lane34, dist);
+            SpawnObstaclesRearward(lane12, dist);
         }
     }
 }

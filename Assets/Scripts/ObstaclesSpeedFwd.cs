@@ -2,14 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstaclesSpeed : MonoBehaviour
+public class ObstaclesSpeedFwd : MonoBehaviour
 {
     const float speed = 0.08f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     void FixedUpdate()
     {

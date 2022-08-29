@@ -331,10 +331,10 @@ GameObject:
   - component: {fileID: 425790}
   - component: {fileID: 3301594}
   - component: {fileID: 2376108}
-  - component: {fileID: 524254599900466527}
-  - component: {fileID: 6167598026306033552}
+  - component: {fileID: -7756396550178615136}
+  - component: {fileID: -8715422188646260583}
   m_Layer: 0
-  m_Name: Car_6_Purple
+  m_Name: Car_6_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +384,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fcf59a39d922f5b408fb9de922c1ee34, type: 2}
+  - {fileID: 2100000, guid: 7035d7f8757dc2946904e38b831bf42b, type: 2}
   - {fileID: 2100000, guid: 2e2f85c2d31ee15459da8b5872f104f5, type: 2}
   - {fileID: 2100000, guid: 98f7409cb2311754790226154951b58b, type: 2}
   m_StaticBatchInfo:
@@ -407,7 +407,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &524254599900466527
+--- !u!65 &-7756396550178615136
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -420,7 +420,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.045798227, y: 0.013064211, z: 0.021283582}
   m_Center: {x: 0, y: -6.9849193e-10, z: 0}
---- !u!114 &6167598026306033552
+--- !u!114 &-8715422188646260583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -429,6 +429,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 193646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c733032ef136c7b4796144668c607ec8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ee42bd06edc48643b7585b9a9af1d8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
