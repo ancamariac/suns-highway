@@ -26,7 +26,6 @@ public class DistanceUI : MonoBehaviour
         if (dist > bestDist)
         {
             PlayerPrefs.SetFloat("BestScore", dist);
-            Debug.Log("yeeeeeeeeeeeeeeeee");
         }
     }
 }

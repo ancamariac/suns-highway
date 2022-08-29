@@ -8,6 +8,5 @@ public class Options : MonoBehaviour
     public void OnClick()
     {
         SceneManager.LoadScene("Untitled", LoadSceneMode.Single);
-        Debug.Log("fdfsd");
     }
 }
