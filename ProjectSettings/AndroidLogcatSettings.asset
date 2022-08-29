@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "52009c28b8a32509",
         "name": "com.DefaultCompany.SunsHighway",
-        "processId": 11463,
+        "processId": 15474,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,18 @@
             "deviceId": "52009c28b8a32509",
             "name": "com.DefaultCompany.SunsHighway",
             "processId": 11463,
+            "exited": false
+        },
+        {
+            "deviceId": "52009c28b8a32509",
+            "name": "com.DefaultCompany.SunsHighway",
+            "processId": 14038,
+            "exited": false
+        },
+        {
+            "deviceId": "52009c28b8a32509",
+            "name": "com.DefaultCompany.SunsHighway",
+            "processId": 15474,
             "exited": false
         }
     ],
