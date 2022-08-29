@@ -54,11 +54,11 @@ public class ObstacleGenerator : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 150; i++)
         {
             int lane12 = Random.Range(1, 2);
             int lane34 = Random.Range(3, 5);
-            float dist = i * 100 + 15;
+            float dist = i * 150 + 15;
 
             SpawnObstacleForward(lane34, dist);
             SpawnObstaclesRearward(lane12, dist);
