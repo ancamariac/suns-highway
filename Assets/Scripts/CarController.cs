@@ -64,7 +64,7 @@ public class CarController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) || brakes.pressed)
         {
-            speed -= 0.019f;
+            speed -= 0.015f;
 
             if ( speed <= 0 )
             {
@@ -75,7 +75,6 @@ public class CarController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Ai lovit o masina!");
         SceneManager.LoadScene("Scenes/EndGame", LoadSceneMode.Single);
     }
 }

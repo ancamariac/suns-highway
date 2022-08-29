@@ -49,10 +49,6 @@ public class ObstacleGenerator : MonoBehaviour
         GameObject obstaclePrefabRwd = GetRandomPrefabRwd();
         float x = GetXFromLane(lane);
 
-        Vector3 rot = obstaclePrefabRwd.transform.eulerAngles;
-        rot = new Vector3(rot.x, rot.y + 180, rot.z);
-        obstaclePrefabRwd.transform.rotation = Quaternion.Euler(rot);
-
         Instantiate(obstaclePrefabRwd, new Vector3(x, obstaclePrefabRwd.transform.position.y, z), obstaclePrefabRwd.transform.rotation, transform);
     }
 

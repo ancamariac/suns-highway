@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObstaclesSpeedFwd : MonoBehaviour
 {
-    const float speed = 0.08f;
+    const float speed = 0.28f;
 
     void FixedUpdate()
     {
